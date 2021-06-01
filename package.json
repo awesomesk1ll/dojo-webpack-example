@@ -3,9 +3,8 @@
 	"version": "0.0.5",
 	"description": "",
 	"dependencies": {
-		"@babel/polyfill": "^7.2.5",
-		"dijit": "^1.15.0",
-		"dojo": "^1.15.0"
+		"dijit": "^1.16.4",
+		"dojo": "^1.16.4"
 	},
 	"scripts": {
 		"dev": "webpack-dev-server --open",
@@ -16,19 +15,20 @@
 	"license": "",
 	"main": "src",
 	"devDependencies": {
-		"@babel/cli": "^7.2.3",
-		"@babel/core": "^7.2.2",
-		"@babel/preset-env": "^7.3.1",
-		"@babel/preset-typescript": "^7.3.3",
-		"babel-loader": "^8.0.5",
+		"@babel/cli": "^7.14.3",
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.4",
+		"@babel/preset-typescript": "^7.13.0",
+		"babel-loader": "^8.2.2",
 		"copy-webpack-plugin": "^4.5.2",
-		"dojo-typings": "^1.11.9",
-		"dojo-util": "^1.15.0",
-		"dojo-webpack-plugin": "^2.7.3",
+		"core-js": "^3.13.1",
+		"dojo-typings": "^1.11.11",
+		"dojo-util": "^1.16.4",
+		"dojo-webpack-plugin": "^2.8.19",
 		"source-map-loader": "^0.2.4",
-		"typescript": "^3.3.3333",
-		"webpack": "^4.15.0",
-		"webpack-cli": "^3.1.2",
-		"webpack-dev-server": "^3.1.14"
+		"typescript": "^3.9.9",
+		"webpack": "^4.46.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.2"
 	}
 }
