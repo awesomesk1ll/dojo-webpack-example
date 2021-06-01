@@ -3,11 +3,9 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const path = require("path");
 
-require("@babel/polyfill");
-
 const getDefaultConfig = env => ({
   mode: "development",
-  entry: ["@babel/polyfill", "./src/main.ts"],
+  entry: ["core-js", "./src/main.ts"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js"
