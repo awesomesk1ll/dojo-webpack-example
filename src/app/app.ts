@@ -10,7 +10,7 @@ interface App extends _WidgetBase, _TemplatedMixin { }
 const App = declare([_WidgetBase, _TemplatedMixin], {
   templateString: template,
   postCreate() {
-    console.log("App created")
+    console.log("Dojo module created.")
   }
 })
 

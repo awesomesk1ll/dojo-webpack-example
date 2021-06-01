@@ -53,7 +53,7 @@ module.exports = env => {
       contentBase: path.join(__dirname, "dist"),
       compress: true,
       host: "localhost",
-      port: 9090,
+      port: 3000,
       hot: false
     };
   } else {
