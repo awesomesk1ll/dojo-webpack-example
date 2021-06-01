@@ -40,7 +40,6 @@ const getDefaultConfig = env => ({
       has: { "foreign-loader": true }
     }),
     new CopyWebpackPlugin([
-      { from: "./public/index.jsp", to: "index.jsp" },
       { from: "./public/index.html", to: "index.html" }
     ])
   ]
